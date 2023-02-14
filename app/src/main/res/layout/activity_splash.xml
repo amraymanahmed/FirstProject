@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        >
+
+        <ImageView
+
+            android:id="@+id/imagestart"
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="@dimen/_100sdp"
+            android:elevation="@dimen/_10sdp"
+            android:src="@drawable/img"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.369"
+
+            />
+
+        <TextView
+            android:id="@+id/text_splashone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_30sdp"
+            android:layout_marginBottom="@dimen/_40sdp"
+            android:text="Hello My friend"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_28sdp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/imagestart"
+            app:layout_constraintVertical_bias="0.0"
+            android:fontFamily="cursive"
+            />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

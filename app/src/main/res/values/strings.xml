@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">BewareHole</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="maps_api_key">AIzaSyCuU8tmEzEUrrUwuOS3NRXhg3qvyElPipE</string>
+</resources>

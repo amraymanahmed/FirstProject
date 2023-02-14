@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUpActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            >
+
+            <TextView
+                android:id="@+id/headtitle_signup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_24sdp"
+                android:fontFamily="serif"
+                android:text="SIGN UP"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_30ssp"
+                android:textStyle="bold"
+
+                />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/name_signuplayout"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_24sdp"
+                android:layout_marginTop="@dimen/_45sdp"
+                android:layout_marginEnd="@dimen/_24sdp"
+                android:hint=" Name "
+
+                >
+
+                <com.google.android.material.textfield.TextInputEditText
+
+                    android:id="@+id/name_signup"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:inputType="text"
+                    android:textColor="#000"
+                    android:textSize="@dimen/_16ssp"
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/number_signuplayout"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_24sdp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:layout_marginEnd="@dimen/_24sdp"
+                android:hint=" Number "
+
+                >
+
+                <com.google.android.material.textfield.TextInputEditText
+
+                    android:id="@+id/number_signup"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:inputType="number"
+                    android:textColor="#000"
+                    android:textSize="@dimen/_16ssp"
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/email_signuplayout"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_24sdp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:layout_marginEnd="@dimen/_24sdp"
+                android:hint=" Email "
+
+                >
+
+                <com.google.android.material.textfield.TextInputEditText
+
+                    android:id="@+id/email_signup"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:inputType="text"
+                    android:textColor="#000"
+                    android:textSize="@dimen/_16ssp"
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/password_signuplayout"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_24sdp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:layout_marginEnd="@dimen/_24sdp"
+                android:hint=" Password"
+                app:passwordToggleEnabled="true"
+                >
+
+                <com.google.android.material.textfield.TextInputEditText
+
+                    android:id="@+id/password_signup"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:inputType="textPassword"
+                    android:textColor="#000"
+                    android:textSize="@dimen/_16ssp" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/confirmpassword_signuplayout"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_24sdp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:layout_marginEnd="@dimen/_24sdp"
+                android:hint=" Confirm Password"
+                app:passwordToggleEnabled="true"
+                >
+
+                <com.google.android.material.textfield.TextInputEditText
+
+                    android:id="@+id/confirmpassword_signup"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:inputType="textPassword"
+                    android:textColor="#000"
+                    android:textSize="@dimen/_16ssp" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <Button
+
+                android:id="@+id/dosignup"
+                android:layout_width="@dimen/_180sdp"
+                android:layout_height="@dimen/_50sdp"
+                android:layout_gravity="center"
+                android:layout_marginStart="@dimen/_24sdp"
+                android:layout_marginTop="@dimen/_40sdp"
+                android:layout_marginEnd="@dimen/_24sdp"
+                android:gravity="center"
+                android:text="Ok"
+                android:textColorHint="@color/white"
+                android:textSize="@dimen/_25ssp" />
+
+
+        </LinearLayout>
+        <com.google.android.material.progressindicator.CircularProgressIndicator
+
+            android:id="@+id/progreeload"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_16sdp"
+            android:indeterminate="true"
+            app:indicatorColor="#ED0606"
+            android:layout_gravity="center"
+            android:visibility="gone"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

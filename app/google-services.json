@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "789037694636",
+    "project_id": "bewarehole",
+    "storage_bucket": "bewarehole.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:789037694636:android:021184340b9bcacc3ea909",
+        "android_client_info": {
+          "package_name": "com.example.bewarehole"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "789037694636-2u42l48pvq1jq03pj2pvvic6mttnk7vn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bewarehole",
+            "certificate_hash": "39db37455c0775f8722cea7c3ca8ed762c6b4534"
+          }
+        },
+        {
+          "client_id": "789037694636-a3hlqtcc4q3meekkgqrkmur6hosvkfdk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjQvJ2ip_GQ98g2e6z2Hy260TR5UWOzgQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "789037694636-a3hlqtcc4q3meekkgqrkmur6hosvkfdk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
